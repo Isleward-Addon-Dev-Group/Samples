@@ -11,6 +11,6 @@
 (function () {
     var scriptElement = document.createElement( "script" );
     scriptElement.type = "text/javascript";
-    scriptElement.src = "https://cdn.rawgit.com/Isleward-Modding-Group/Samples/master/damageNumbers.js";
+    scriptElement.src = "https://cdn.rawgit.com/Isleward-Modding-Group/Samples/master/damageNumbers/damageNumbers.js";
     document.body.appendChild( scriptElement );
 })();
