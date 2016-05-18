@@ -17,6 +17,7 @@ mods.register({
         this.createEl(msg.amount);
     },
     createEl: function(amount) {
+        amount = Math.round(amount);
         var html = this.tpl
             .split('$AMOUNT$')
             .join(amount);
