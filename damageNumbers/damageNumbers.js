@@ -1,4 +1,4 @@
-mods.register({
+addons.register({
     tpl: `
         <div style="position: absolute; left: 4px; top: 4px; background-color: white; padding: 8px;">
             $AMOUNT$
